@@ -48,6 +48,7 @@ $(document).ready(function() {
   $("#hour-15 .description").val(localStorage.getItem("hour-15"));
   $("#hour-16 .description").val(localStorage.getItem("hour-16"));
   $("#hour-17 .description").val(localStorage.getItem("hour-17"));
+  $("#hour-18 .description").val(localStorage.getItem("hour-18"));
 
   // display current day on page
   $("#currentDay").text(moment().format("dddd, MMMM Do"));
